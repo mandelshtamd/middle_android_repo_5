@@ -14,8 +14,8 @@ repositories {
 
 gradlePlugin {
     plugins {
-        register("findUntranslatedStrings") {
-            id = "findUntranslatedStrings"
+        register("untranslatedStrings") {
+            id = "untranslatedStrings"
             implementationClass = "com.yandex.practicum.middle_homework_5.gradle_plugins.FindUntranslatedStringsPlugin"
         }
     }

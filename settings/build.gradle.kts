@@ -8,7 +8,7 @@ plugins {
     alias(libs.plugins.untranslated)
 }
 
-tasks.preBuild.dependsOn("findUntranslatedStrings")
+tasks.preBuild.dependsOn("untranslatedStrings")
 
 android {
 

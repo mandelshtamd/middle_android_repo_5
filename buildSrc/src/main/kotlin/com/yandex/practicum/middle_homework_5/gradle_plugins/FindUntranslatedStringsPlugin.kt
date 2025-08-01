@@ -6,7 +6,7 @@ import org.gradle.api.Project
 class FindUntranslatedStringsPlugin : Plugin<Project> {
     override fun apply(project: Project) {
         project.tasks.register(
-            "findUntranslatedStrings",
+            "untranslatedStrings",
             FindUntranslatedStringsTask::class.java
         ) {
             group = "verification"
